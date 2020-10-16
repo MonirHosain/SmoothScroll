@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background-color: black;
+  position: fixed;
+ 
+
+  width: 100%;
+ 
+}
+nav ul {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+nav li {
+  list-style-type: none;
+  margin: 4px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(5, 100vh);
+
+  text-align: justify;
+}
+
+p {
+  margin: 0 10vw;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#home {
+  background-color: yellow;
+}
+#service {
+  background-color: greenyellow;
+}
+#about {
+  background-color: brown;
+}
+#contact {
+  background-color: hotpink;
+}
